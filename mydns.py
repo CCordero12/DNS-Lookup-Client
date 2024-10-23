@@ -341,9 +341,6 @@ if len(sys.argv) != 3:
 domain_name = sys.argv[1]
 root_dns_ip = sys.argv[2]
 
-
-print("*Note to prof*: The root server 202.12.27.33 does not send back a reply.")
-print("All other root servers other than 202.12.27.33 (the one used in the sample output) do work.")
 print("----------------------------------------------------------------")
 print("DNS server to query: " + root_dns_ip)
 
